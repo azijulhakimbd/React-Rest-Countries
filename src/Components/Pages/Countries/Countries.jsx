@@ -6,10 +6,10 @@ const Countries = () => {
     const countryData=useLoaderData()
     return (
         <div>
-            <h1 className='text-2xl text-center p-5'>React World On the Go</h1>
-            <h1 className='text-2xl text-center p-5'>Total Countries:{countryData.length}</h1>
+            <h1 className='lg:text-2xl text-center lg:p-5'>React World On the Go</h1>
+            <h1 className='lg:text-2xl text-center lg:p-5'>Total Countries:{countryData.length}</h1>
             <div className="overflow-x-auto">
-  <table className="table w-3/4 mx-auto rounded-2xl table-xs border p-2 m-2 border-[#EFEFEF]">
+  <table className="table w-3/4 h-2/4 lg:mx-auto lg:rounded-2xl lg:table-lg table-sm border p-2 m-2 border-[#EFEFEF]">
     <thead>
       <tr>
         <th>TLD</th>

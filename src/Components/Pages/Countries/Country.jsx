@@ -11,8 +11,8 @@ const Country = ({country}) => {
         <td>{country.name.official}</td>
         <td>{country.capital}</td>
         <td>{country.population}</td>
-        <td><img className='w-20 h-10' src={country.flags.png} alt="" /></td>
-        <td>{country.timezones[0]}?</td> </tr>
+        <td><img className='lg:w-20 lg:h-10' src={country.flags.png} alt="" /></td>
+        <td>{country.timezones[0]}</td> </tr>
     
     );
 };
